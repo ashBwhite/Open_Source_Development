@@ -1,0 +1,43 @@
+Task 1
+
+-Output the Operating System name
+
+Task 2
+
+-Output the current working directory location
+
+Task 3
+
+-Store all the files and folders of the current working directory
+-Output each file/directory on a new line
+
+Task 4
+
+-Create a sub-directory in the current working directory
+
+Task 5
+
+-Create the following sub-directories in the current working directory
+	d1
+		d2
+			d3
+
+Add 2 empty text files in each directory above (6 files total). You choose the file names. They must all be unique
+
+
+Task 6
+
+-Output all the files and folders of the current working directory recursively (go through sub-directories)
+HINT: use walk() method
+
+Task 7
+
+-Ask the user for a string at least 5 characaters long
+-If it is not 5+ characters, raise an exception (make sure you use try-except blocks)
+-Write a final statement
+
+Task 8
+
+-Open a file for reading
+-Attempt to write content to the file
+-Except a FileNoteFound, IOError and general error
