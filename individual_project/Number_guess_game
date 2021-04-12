@@ -1,0 +1,4 @@
+Simple Number Guess Game
+   Ask user to input a range of natural number (lower bound and upper bound)
+      Error will be occurred when user inputed 0, and ask user to put another number
+   Count number of guessing trials and when user cannot guess within 5 times, system will gives a hint to user.
