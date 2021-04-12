@@ -1,0 +1,35 @@
+Task 1
+
+-Create a class called Window
+    -It has
+        -2 public properties
+        
+		-1 private property
+
+        -1 constructor that takes 3 arguments
+            pass each argument to the appropriate property
+
+Task 2
+
+In a new python file
+	-import the Window class
+    -Instantiate the Window object
+    -Output the two public properties
+
+
+Task 3
+
+-Create a class named Instrument
+
+	-Give it a
+		-constructor
+			-all with default values
+		
+		-destructor
+		
+		-2 public properties
+		
+		-1 private property
+		
+		-a tostring method
+	
