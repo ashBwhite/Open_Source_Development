@@ -1,0 +1,104 @@
+Assignment 2
+Part A
+
+In the beginning, the program checks if a file named "Score.txt" in a specific location in your Google Drive contains any score or not?
+
+If it does not contain any score, it shows the following message: "Welcome to your Math Game!"
+
+If there is any recorded score, e.g. 30, the program shows the following message: "I am happy to meet you again! Your last score was 30!"
+
+Next, the program randomly chooses two integer numbers and an operator, such as +, - or *. (You need to find a way how to generate random operator. It is not very difficault.)
+
+For example, the program chooses 7, 8, and +. Then it asks the user the following question: "What is the result of 7 + 8?"
+
+If the user enters a correct answer, the following message will show on the screen: "Congratulations! You are Pro!" And it adds one score to the user's achieved score.
+
+And if the user enters a wrong answer, the following message will show on the screen: "The correct answer is 15. Let's try another question :)" And it reduces one score from the user's achieved score.
+
+Then the program should ask you if you want to continue the game, showing the following text: "Do you want to continue? (Y to continue, any other character to Exit)"
+
+In the following, I will guide you to enjoy your coding process, step by step:
+
+# Define a global maxScore=0
+# This variable will take care of number of correct and number of wrong answers
+
+
+# Define a function, called  myMathTest that has the following parts:
+# You need to callmaxScore here (your global variable) as you need to modify it 
+# in this function.
+
+# Define two random integers, e.g. variable a and variable b
+# These two random integers are between 1 to 10.
+# Imagine, in one run the random numbers for a, and b are 3 and 5 respectively.
+
+# Define a mechanism that generates a random operator 
+# (one of the following operators +, - or * )
+# Imagine the random operator is *, so you need to calculate c=a*b
+# Which would be c=3*5
+#
+# Now, you need to ask the user the following question:
+# What is the result of 3*5?
+
+# If the user enters 15, the following message should appear:
+# "Congratulations! You are Pro!"
+# And you need to add 1 to your global maxScore.
+
+# If the user enters a wrong answer, e.g. 10, 
+# the following message should appear:
+# "The correct answer is 15. Let's try another question :)"
+# And you need to deduct 1 from your global maxScore.
+
+# Now, define an infinite loop (Hint: Using True as the condition) 
+# and call myMathTest() as the first statement inside the loop.
+# Then, every time ask the user if they want to continue playing or not, 
+# asking the following question:
+# "Do you want to continue? (Y to continue, any other character to Exit)"
+
+# The game should continue as long as the user presses "y" or "Y".
+
+# After the user entered any character, but "y" or "Y", 
+# you should print the following messages:
+# "Thank you for playing!"
+# "You got XXX!"
+# "WOW!"
+
+# e.g. if the achieved score is 150, the messages would be as follows:
+# "Thank you for playing!"
+# "You got 150!"
+# "WOW!"
+
+
+Part B
+# Now, you reviewed the Quadratic Equation concept.
+# First, we type "Welcome to Quadratic Equation Game!"
+
+# Next, please show the Quadratic Equation as follows:
+# "aX^2 + bX + C = 0"
+
+# Then, ask the user to enter a, b, and c, respectively.
+
+# Now, please show the quadratic equation to the user, before start solving it:
+# e.g. "Your Quadratic Equation is: 1X^2 + 5X + 6 = 0"
+
+# Define a function, called discriminant that receives a, b, and c, and calculates the discriminant.
+
+# Use the above function in the following part:
+# If Discriminant is positive, we get two Real solutions.
+# So, please print "We got two real solutions, which are X1, and X2"
+# Sure, you calculate the value of X1, and X2.
+
+# If Discriminant  is zero we get just ONE real solution (both answers are the same).
+# So, please print "We got one real solution, which is X1"
+# Sure, you calculate the value of X1.
+
+# If Discriminant is negative we get a pair of Complex solutions.
+# So, please print "The Discriminant is negative, we got a pair of Complex solutions."
+# You do not need to show the complex solutions :)
+
+# Note: You need to import math library, and calculate the square root of 
+# discriminant for the case that you have two real solutions.
+
+# Finally, save the above two messages into a file, called "QuadEqu.txt"
+# e.g.
+# Your Quadratic Equation is: 1X^2 + 5X + 6 = 0
+# We got two real solutions,, which are -2.0, and -3.0
