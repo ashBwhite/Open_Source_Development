@@ -1,0 +1,57 @@
+Task 1
+
+Create an empty list
+Ask the user for any input 5 times
+Only add the input to the list if it does NOT already exist
+
+Task 2
+
+Write 6 boolean expressions using six relational operators
+
+Task 3
+
+Write 6 boolean expressions using logical operators
+
+Task 4
+
+Ask user for input
+Using one IF statement block
+
+    Determine if input is
+        a string greater than 3 characters
+        an empty string
+		
+	If neither of the above cases are true, display message thanking user for input.
+
+Task 5
+
+-Create an empty list
+-Ask the user for any input 5 times
+-Only add the input to the list if it does NOT already exist
+
+
+Task 6
+
+Create Number Guessing Game
+
+upon running script
+    Get a random number (user random module)
+	
+Ask user to guess number until they "quit" or "exit" (case in-sensitive)
+	
+Store the incorrect guesses
+
+If guess is "close" (define close as +/- 3)
+    Give message saying "getting warmer"
+
+if not "close"
+    Give message saying "not close"
+
+After 5 amount of incorrect guesses
+    Give a SUPER EASY hint (your choice)
+		I.E. "twice the value of this number is ______"
+
+When they have guessed number
+    Give congrats message
+       Display all incorrect guess
+       Tell them how many guesses it took to get correct
