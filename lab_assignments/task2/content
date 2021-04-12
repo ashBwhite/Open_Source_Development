@@ -1,0 +1,36 @@
+Task 1
+
+-Create a dictionary of 3 items
+-GET one of the keys
+-Remove one of the keys
+-output the dictionary
+
+Task 2
+
+-Ask the user for an input
+-Output the ASCII values for each character of the input
+-Output the sum of the ASCII values for each character of the input
+
+
+Task 3
+
+-Ask the user for a number
+-Determine if number is a digit
+	If so, output the character that ASCII value represents
+	If not, output an error message
+
+
+Task 4
+
+-Ask the user for an input
+-Determine if the input is a valid title
+	If so, output a success message
+	If not, transform the input into a title and output it
+
+
+Task 5
+
+-Ask user for input
+-Ask user for character
+-Output a YES or NO value if the character is found in the input
+-Output a position of where the character is found
