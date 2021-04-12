@@ -1,0 +1,53 @@
+Task 1
+
+-Create a new sqlite database file
+-Create the following tables in the database above
+
+		students
+			student_id
+			name
+
+		courses
+			course_code
+			course_name
+
+		grades
+			student_id
+			course_code
+			grade_percent
+	
+Task 2
+
+-Choose one table and output the column names and data types 
+
+Task 3
+
+-Insert 5 rows into the students table using String formatting
+
+Task 4
+
+-Insert 5 rows into the courses table, passing parameters to the execute() method
+
+Task 5
+
+-Insert 5 rows into the grades table using any method
+
+Task 6
+
+-Remove 1 row from each table
+
+Task 7
+
+-Update 1 row from each table
+
+Task 8
+
+-Retrieve all rows from the students table. Use the row factory to display the data
+
+Task 9
+
+-The first three rows from the courses table. Use the row factory to display just the course name
+
+Task 10
+
+-Delete any table created in Task 1
