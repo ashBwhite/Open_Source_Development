@@ -1,0 +1,15 @@
+Task 1
+
+- Create a class called Home
+- Give the class three properties that cannot be accessible outside of the class.
+- Create the accessors and mutators for these instance variables.
+- Create a constructor that takes 3 arguments and passes each argument to the appropriate property
+- Override the default implementation of the toString method to summarize the 3 properties of Home
+
+Task 2
+
+- Create a class called Apartment that is based on the Home class.
+- Give the class two additional properties that can be accessed outside of the class 
+- Allow the Apartment class to be constructed like the Home class. (3 marks)
+- Create a constructor that takes 5 arguments and passes each argument to the appropriate properties
+- Override the toString to include the summary of the two new instance variables of Apartment
